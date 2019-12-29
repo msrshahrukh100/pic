@@ -4,12 +4,12 @@ BASE_IMAGE_PATH = 'base-image/base-image.png'
 
 TEST = False
 
-# Adjust this fraction to fit the font size on the image
-IMAGE_FRACTION_ADJUST = 0.8
+# Adjust this fraction to fit the font size on the image, increasing it will increase the font sizes
+IMAGE_FRACTION_ADJUST = 1.75
 
 
-# Adjust distance between primary and secondary text
-ADUST_PRIMARY_SECONDARY_DIS = 0.9
+# Adjust distance between primary and secondary text, increasing it will shift the secondary text to the bottom
+ADUST_PRIMARY_SECONDARY_DIS = 0.8
 
 
 # X, Y cordinates for the text

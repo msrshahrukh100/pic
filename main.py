@@ -2,12 +2,14 @@ from PIL import Image, ImageFont, ImageDraw
 import config
 import data
 
-image = Image.open(config.BASE_IMAGE_PATH)
-draw = ImageDraw.Draw(image)
 
 
 def create_image_with_text(primary, secondary=None):
+	image = Image.open(config.BASE_IMAGE_PATH)
+	draw = ImageDraw.Draw(image)
+
 	primary_fontsize = 1
+
 	primary_font = ImageFont.truetype(config.PRIMARY_FONT_PATH, primary_fontsize)
 	while primary_font.getsize(primary)[0] < config.IMAGE_FRACTION_ADJUST*image.size[0]:
 	    primary_fontsize += 1
@@ -30,6 +32,7 @@ def create_image_with_text(primary, secondary=None):
 		y_coordinate = (image.size[1] - primary_fontsize) * config.ADUST_PRIMARY_SECONDARY_DIS
 		draw.text((config.PRIMARY_TEXT_COORDINATES[0], y_coordinate), secondary, font=secondary_font)
 	image.save(file_name)
+
 	return
 
 
