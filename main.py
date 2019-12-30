@@ -27,10 +27,10 @@ def create_image_with_text(primary, secondary=None):
 
 	file_name = "test_image.png" if config.TEST else "generated-images/" + primary + ".png"
 
-	draw.text(config.PRIMARY_TEXT_COORDINATES, primary, font=primary_font)
+	draw.text(config.PRIMARY_TEXT_COORDINATES, primary, font=primary_font, fill=config.PRIMARY_FONT_COLOR)
 	if secondary:
 		y_coordinate = (image.size[1] - primary_fontsize) * config.ADUST_PRIMARY_SECONDARY_DIS
-		draw.text((config.PRIMARY_TEXT_COORDINATES[0], y_coordinate), secondary, font=secondary_font)
+		draw.text((config.PRIMARY_TEXT_COORDINATES[0], y_coordinate), secondary, font=secondary_font, fill=config.SECONDARY_FONT_COLOR)
 	image.save(file_name)
 
 	return

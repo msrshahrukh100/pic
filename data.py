@@ -1,65 +1,62 @@
 IMAGE_DATA = [
 	{
-		"primary": "“Tough times \nnever last, \nbut tough people do.”",
-		"secondary": "~ Robert H. Schuller"
+		"primary": "“Ideas are easy.\nImplementation\nis hard.”",
+		"secondary": "~ Guy Kawasaki,\nAlltop Co-Founder and Entrepreneur"
 	},
 	{
-		"primary": "“Remember \nWhy \nYou \nStarted.”",
+		"primary": "“Any time is a\ngood time to\nstart a\ncompany.”",
+		"secondary": "~ Ron Conway,\nNoted Startup Investor, SV Angel"
 	},
 	{
-		"primary": "“The way to get started \nis to quit Talking \nand begin Doing.”",
-		"secondary": "~ Walt Disney"
+		"primary": "“Ideas are\ncommodity.\nExecution of them\nis not.” ",
+		"secondary": "~ Michael Dell,\nDell Chairman and CEO"
 	},
 	{
-		"primary": "“The credit belongs \nto the man who is \nactually in the arena...",
-		"secondary": "~ Theodore Roosevelt"
+		"primary": "“I knew that if\nI failed I wouldn’t\nregret that, but\nI knew the one thing I might\nregret is not trying.”",
+		"secondary": "~ Jeff Bezos, Amazon Founder and CEO"
 	},
 	{
-		"primary": "“You have to \nBelieve it before \nyou See it.”",
-		"secondary": "~ Unknown"
+		"primary": "“If you are not embarrassed\nby the first version of your product,\nyou’ve launched too late.”",
+		"secondary": "~ Reid Hoffman, LinkedIn Co-Founder and Venture Capitalist"
 	},
 	{
-		"primary": "“Be so good \nthey can’t \nignore you.”",
-		"secondary": "~ Steve Martin"
+		"primary": "“Remember to celebrate\nmilestones as\nyou prepare for the\nroad ahead.”",
+		"secondary": "~ Nelson Mandela, South African Leader"
 	},
 	{
-		"primary": "“Be the change \nyou wish to see in \nthe world.”",
-		"secondary": "~ Mahatma Gandhi"
+		"primary": "“A pessimist sees the difficulty\nin every opportunity;\nan optimist sees the\nopportunity in every difficulty”",
+		"secondary": "~ Winston Churchill, British Prime Minister"
 	},
 	{
-		"primary": "“A ship in the \nharbor is safe, \nbut that is not what \nships are built for.”",
-		"secondary": "~ John A. Shedd"
+		"primary": "“Whether you think\nyou can,\nor think you can’t\n-- you’re right.”",
+		"secondary": "~ Henry Ford,\nFord Motor Company Founder"
 	},
 	{
-		"primary": "“If you don’t have \nBig Dreams and Goals, \nyou’ll end up working \nfor someone that does.”",
-		"secondary": "~ Unknown"
+		"primary": "“Act enthusiastic\nand you will be\nenthusiastic.”",
+		"secondary": "~ Dale Carnegie, Author\nand Motivational Speaker"
 	},
 	{
-		"primary": "“I have not failed.\nI’ve just found \n10,000 ways that \nwon’t work.”",
-		"secondary": "~ Thomas Edison"
+		"primary": "“Always deliver\nmore than\nexpected.”",
+		"secondary": "~ Larry Page,\nCo-Founder, Google"
 	},
 	{
-		"primary": "“Don’t worry about failure;\nyou only have to be \nright once.”",
-		"secondary": "~ Drew Houston"
+		"primary": "“Trust\nyour\ninstincts.”",
+		"secondary": "~ Estée Lauder,\nFounder, Estée Lauder"
 	},
 	{
-		"primary": "“Someone is sitting \nin the shade today \nbecause someone planted \na tree a long time ago.”",
-		"secondary": "~ Warren Buffett"
+		"primary": "“Always treat your\nemployees exactly as you\nwant them to treat your\nbest customers.”",
+		"secondary": "~ Stephen R. Covey, Author"
 	},
 	{
-		"primary": "“Try not to become a \nman of success. \nRather become a man of \nValue.”",
-		"secondary": "~  Albert Einstein"
+		"primary": "“Waiting for perfect\nis never as smart as\nmaking progress.”",
+		"secondary": "~  Seth Godin, Author"
 	},
 	{
-		"primary": "“Don’t risk more \nthan you can afford \nto lose!”",
-		"secondary": "~ The Backroads Bosslady"
+		"primary": "“One can get anything if\nhe is willing to help enough\nothers get what they want.”",
+		"secondary": "~ Zig Ziglar, Motivational Speaker and Author"
 	},
 	{
-		"primary": "“Knowledge without \naction is \nmeaningless”",
+		"primary": "“Knowledge\nwithout action\nis meaningless”",
 		"secondary": "~ Abu Bakr(R.A)"
-	},
-	{
-		"primary": "“Life’s too short \nto learn from your own \nmistakes. So learn \nfrom others”",
-		"secondary": "~ Unknown"
-	},
+	}
 ]
